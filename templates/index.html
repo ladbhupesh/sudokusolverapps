@@ -1,0 +1,1187 @@
+{% extends 'base.html' %}
+
+{% block maincontent %}
+    <form enctype="multipart/form-data" method="POST" class="mx-5">
+        {% csrf_token %}
+        <table class="table table-bordered text-center table-sm">
+            <tr>
+                <th>#</th>
+                <th>C1</th>
+                <th>C2</th>
+                <th>C3</th>
+                <th>C4</th>
+                <th>C5</th>
+                <th>C6</th>
+                <th>C7</th>
+                <th>C8</th>
+                <th>C9</th>
+            </tr>
+            <tr>
+                <th>R1</th>
+                <td>
+                    <select class="custom-select" name="r1c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r1c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R2</th>
+                <td>
+                    <select class="custom-select" name="r2c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r2c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R3</th>
+                <td>
+                    <select class="custom-select" name="r3c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r3c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R4</th>
+                <td>
+                    <select class="custom-select" name="r4c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r4c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R5</th>
+                <td>
+                    <select class="custom-select" name="r5c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r5c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R6</th>
+                <td>
+                    <select class="custom-select" name="r6c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r6c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R7</th>
+                <td>
+                    <select class="custom-select" name="r7c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r7c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R8</th>
+                <td>
+                    <select class="custom-select" name="r8c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r8c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>R9</th>
+                <td>
+                    <select class="custom-select" name="r9c1">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c2">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c3">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c4">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c5">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c6">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c7">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c8">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="r9c9">
+                        <option selected>0</option>
+                        <option value=2>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td colspan="10"><input type="submit" class="btn btn-primary px-5"></td></tr>
+        </table>
+
+    </form>
+{% endblock maincontent %}
+{% block myscripts %}
+
+{% endblock myscripts %}
